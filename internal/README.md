@@ -21,3 +21,7 @@ repository used in the app. Repository is a layer to organize data in db
 ## test
 
 contain test utility and testdata
+
+## entity
+
+contain entities
