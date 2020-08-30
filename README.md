@@ -1,4 +1,5 @@
 # go-simple-api-starter
+
 Go simple api starter for simple project.
 
 ## cmd
@@ -15,4 +16,4 @@ interal core server, contain main app, delivery, service, and repository
 
 ## pkg
 
-contain pkg that can be reused and exported to antoher project
+contain pkg that can be reused and exported to another project

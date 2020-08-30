@@ -1,4 +1,4 @@
-## internal
+# internal
 
 Internal core server
 
@@ -6,17 +6,21 @@ Internal core server
 
 Main init app
 
-## delivery
+## module
 
-protocol interface used in the app: grpc, graphql, http
+domain module, ex: user. Contain:
 
-## service
+    ## delivery
 
-service or business logice for app. Put interface for each domain business in this layer
+    protocol interface used in the app: grpc, graphql, http
 
-## repository
+    ## service
 
-repository used in the app. Repository is a layer to organize data in db
+    service or business logice for app. Put interface for each domain business in this layer
+
+    ## repository
+
+    repository used in the app. Repository is a layer to organize data in db
 
 ## test
 
